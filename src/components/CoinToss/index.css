@@ -1,0 +1,66 @@
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cointoss-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  width: 400px;
+  height: 400px;
+}
+.cointoss-container-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #a35200;
+}
+.cointoss-container-description {
+  font-size: 20px;
+  color: #334155;
+  font-weight: 500;
+}
+.coin-img {
+  width: 100px;
+  height: 100px;
+}
+.btn {
+  width: 180px;
+  background-color: #e2a139;
+  border-width: 0px;
+  color: #a35200;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 3px 3px;
+}
+.results-container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.result {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .cointoss-container {
+    width: 900px;
+    height: 700px;
+  }
+  .coin-img {
+    width: 400px;
+    height: 400px;
+  }
+}
